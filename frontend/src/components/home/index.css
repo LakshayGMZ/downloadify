@@ -1,0 +1,81 @@
+#MainContainer {
+    background-color: darkcyan;
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.containerHeader {
+    min-height: 20vh;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.headerTitle {
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.MainBoxContainer {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+
+    position: relative;
+    outline: 3px solid whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    
+}
+.tabsContainer {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.MuiTabs-indicator {
+    background-color: gainsboro!important;
+}
+
+.tabPaneContainer {
+    flex-grow: 1;
+    position: relative;
+}
+
+.FromURL, .FromSearch {
+    font-size: 1.5rem;
+    margin: 1rem 1.5rem;
+}
+.inputURLContainer, .inputSearchContainer {
+    display: flex;
+    justify-self: center;
+    white-space:pre;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+#mediaSelector {
+    display: flex;
+}
+
+.searchBarContainer {
+    background-color: #2f4f4f;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.searchBar {
+    margin: auto 35%;
+    display: flex;
+    white-space: pre;
+    align-content: center;
+}
