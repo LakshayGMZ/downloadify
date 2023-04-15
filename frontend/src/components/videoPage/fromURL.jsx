@@ -15,7 +15,7 @@ function FromURL(props) {
 
 
     useEffect(() => {
-        axios.get("/video/details", { params: { code: params.get('code') } })
+        axios.get("/video/details/", { params: { code: params.get('code') } })
             .then(res => {
                 if (res.status == 200) {
                     setVideoDetails(<VideoPreview data={res.data} />);
@@ -26,7 +26,7 @@ function FromURL(props) {
 
     useEffect(() => {
         var label;
-        axios.get("/video/formats", { params: { code: params.get('code') } })
+        axios.get("/video/formats/", { params: { code: params.get('code') } })
             .then(res => res.data)
             .then(res => {
                 res = res.map((format, i) => {
