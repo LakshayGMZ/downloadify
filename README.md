@@ -1,7 +1,6 @@
 # downloadify
 
-Youtube video downloader website.
-https://downloadify.vercel.app/
+Youtube video downloader.
 
 This project uses reactJS as frontend and flask as backend this time.
 
